@@ -5,7 +5,7 @@ import prompt from "./lib/prompt.js";
 
 async function main() {
   // Start interactive CLI
-  intro("DusterCLI app starting");
+  intro("DataCull app starting");
 
   // Get user prompt
   const { input, output, errors } = await prompt();
